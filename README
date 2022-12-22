@@ -1,0 +1,30 @@
+**Nume: Raducanu George-Cristian**
+**Grupă: 311CA**
+
+## Titlu + numar temă
+Now you see me - Tema1 SDA
+### Descriere:
+
+* Scurtă descriere a funcționalității temei:
+Tema cuprinde toate functiile cerute:
+* Cele de adaugare, stergere, amestecare, intoarcere a unei liste, sortare, interclasare, afisari, etc
+* Consider ca, codul este suficient de clar insa voi explica existenta functiei de get_count.
+Aceasta este ca o functie de actualizare ce se asigura ce totul este actualizat si corect setatat.
+Nu este neaparat o solutie eleganta dar este o solutie inginereasca fiindca aveam o eroare in cod pe care nu o puteam identifica la un moment si am incercat asa si o parte din segmentation fault-uri au disparut.
+* In rest consider ca toate functiile sunt clare ca implementare cat si ca existenta(de ce sunt facute).
+
+### Comentarii asupra temei:
+
+* Codul meu utilizeaza structuri negenerice, cred ca o tema mai reusita ar fi utilizat void*.
+* Realizarea acestei teme m-a invatat sa am grija la toate cazurile posibile cand realizez operatii cu liste
+* Spre exemplu stergerea unei carti din primul pachet atunci cand acesta continea o singura carte imi genera segmentation fault si a durat aproximativ o zi intreaga sa dau debug la acest aspect deoarece multe teste picau.
+* De asemenea la sort_deck am avut o mica problema intrucat intra in bucla infinita si nu facea nimic.
+* La shuffle am propus o metoda inedita, "rup" practic pointerii care trebuie si ii asez corespunzator, aceasta solutie a mers din prima si nu a utilizat alte fct de add sau remove
+* La functia de merge, dupa combinarea efectiva, trebuia sa sterg pachetele combinate si de accea am utilizat o functie modificata de delete, intrucat nu aveam nevoie si de mesajul corespunzator.
+* Tema a fost foarte dificila intrucat testele mi s-au parut dure (continand toate situatiile posibile) insa a fost justificata ca dificultate.
+
+### (Opțional) Resurse / Bibliografie:
+
+1. (https://www.geeksforgeeks.org/c-program-bubble-sort-linked-list/)
+2. (https://www.geeksforgeeks.org/doubly-linked-list/)
+3. (https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/)
